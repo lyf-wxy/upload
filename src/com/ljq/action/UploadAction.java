@@ -82,6 +82,7 @@ public class UploadAction extends ActionSupport {
             close(fos, fis);
         }
         
+        
     	 	message = "Hello World!";  
         return SUCCESS;
     }
